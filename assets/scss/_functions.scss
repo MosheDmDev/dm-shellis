@@ -1,0 +1,11 @@
+@if ($is_rtl) {
+	$right: right;
+	$left: left;
+	$rtl: rtl;
+	$ltr: ltr;
+} @else {
+	$right: left;
+	$left: right;
+	$rtl: ltr;
+	$ltr: rtl;
+}
