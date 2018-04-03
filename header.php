@@ -1,3 +1,3 @@
 <?php
 
-get_template_part('moshe');
+header('moshe');
